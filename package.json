@@ -1,0 +1,20 @@
+{
+  "name": "blockbrain_encoding",
+  "version": "1.0.0",
+  "description": "encoding/decoding GLIA tokens from blockchain",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "decode": "tsc && node dist/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "pako": "^2.0.3",
+    "tslint": "^6.1.3",
+    "typescript": "^4.3.2"
+  },
+  "devDependencies": {
+    "@types/node": "^15.6.1"
+  }
+}
