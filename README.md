@@ -19,7 +19,7 @@ It's recommended to use a VT-100 terminal with UTF-8 encoding.  For the art to l
 
 ### Example
 
-Here is an example of the program in action:
+Here is an example of the program in action (Click image for video) :
 
 [![Program Demonstration Video](https://img.youtube.com/vi/KL9J_4MXxDc/0.jpg)](https://youtu.be/KL9J_4MXxDc)
 
@@ -31,6 +31,8 @@ You can try this example yourself, using the command :
 ### Where can I find the data to pass into this program?
 
 - From the Ethereum blockchain : GLIA tokens can be found on the mainnet at the contract deployed @ 0xa5655ffc8c1de3081bd7bed9b66ce26e3117cca5 on mainnet.  From this contract, you can call the function `getArtwork` and it will return a response that contains several properties, for decoding we want the last property `2: bytes: artworkContent` which should be a string starting with `0x`.  Copy this string, and use it as a parameter for the program.  
+
+[Somewhat relevant video](https://youtu.be/O1YwRC4mwlc)
 
 
 
